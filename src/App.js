@@ -12,6 +12,7 @@ const VariantButton = ({
   value = " ",
   onClick,
   isAnswer = false,
+  className,
 }) => {
   const handleClick = useCallback(() => {
     if (onClick) {
@@ -19,10 +20,14 @@ const VariantButton = ({
     }
   }, [char, onClick]);
 
-  const activeClass = isAnswer ? "active:bg-green-500" : "active:bg-red-500";
+  const activeClass = isAnswer ? "" : "active:bg-red-500";
 
   return (
-    <button onClick={handleClick} className={`w-full outline-none justify-center items-center leading-4 text-center font-medium rounded-full text-white px-4 py-8 bg-white bg-opacity-5 ${activeClass} text-2xl overflow-hidden`}>
+    <button onClick={handleClick} className={classNames(
+      `w-full outline-none justify-center items-center leading-4 text-center font-medium rounded-full text-white px-4 py-8 bg-white bg-opacity-5 text-2xl overflow-hidden`,
+      activeClass,
+      className,
+    )}>
       {value.toUpperCase()}
     </button>
   )
@@ -40,7 +45,7 @@ function App() {
     const { answer, variants } = getWhatcharData();
     setData({
       answer,
-      variants,
+      variants: shuffle(shuffle(variants)),
     });
   }
 
@@ -54,14 +59,10 @@ function App() {
     console.log('CLICKED', char);
     if (answer.char === char.char) {
       console.log('%c%s', 'font-weight:bold;color:green', 'YES!');
+      setSuccess(true)
       setTimeout(() => {
-        setSuccess(true);
-
-        setTimeout(() => {
-          calculate();
-        }, 500);
-  
-      }, 300);
+        calculate();
+      }, 500);
     } else {
       console.log('%c%s', 'font-weight:bold;color:red', 'FUCK NO!');
       window.navigator.vibrate(200);
@@ -72,22 +73,23 @@ function App() {
   return (
     <div className={classNames(
       "flex justify-center align-middle w-full h-full overflow-hidden",
-      success && "bg-green-400",
+      // success && "bg-green-400",
     )}>
       <div className="flex flex-grow max-w-[420px] px-4 flex-col justify-center items-center text-center">
         <div className="mb-16">
-          <p className={classNames("mt-4 font-bold text-white",
-          success ? "bg-white rounded-full p-8 text-8xl" : "text-9xl")}>
-            {success ? getRandomEmoji() : (answer.char || "?")}
+          <p className={classNames("mt-4 font-bold text-white text-9xl",
+            // success ? "bg-white rounded-full p-8 text-8xl" : "text-9xl"
+          )}>
+            {answer.char || "?"}
           </p>
         </div>
-        {!success && (
-          <p className="mb-6">
-            It's pronounced like:
-          </p>
-        )}
+
+        <p className="mb-6">
+          {success ? "You are right!" : "It's pronounced like:"}
+        </p>
+
         <div className="w-full grid grid-rows-2 grid-flow-col gap-4">
-          {!success && shuffle(shuffle(variants)).map(v => {
+          {variants.map(v => {
             return (
               <VariantButton
                 key={v.char}
@@ -95,12 +97,14 @@ function App() {
                 onClick={onVariantSelected}
                 value={v.spelling}
                 isAnswer={v.char === answer.char}
+                className={v.char === answer.char && success && "bg-green-500 bg-opacity-100"}
               />
             )
           })}
+
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 

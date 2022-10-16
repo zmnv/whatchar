@@ -66,9 +66,6 @@ const DICKTIONARY = [
         char: "ლ",
         spelling: "л"
     },
-
-    
-
     {
         char: "მ",
         spelling: "м"
@@ -113,9 +110,6 @@ const DICKTIONARY = [
         char: "ქ",
         spelling: "к"
     },
-
-
-
     {
         char: "ღ",
         spelling: "гэ"
@@ -161,6 +155,29 @@ const DICKTIONARY = [
         spelling: "хʼ"
     },
 ];
+
+// const DICKTIONARY = [
+//     {
+//         char: ":3",
+//         spelling: "myau"
+//     },
+//     {
+//         char: "O_o",
+//         spelling: "o m g"
+//     },
+//     {
+//         char: "__̴ı̴̴̡̡̡ ̡͌l̡̡̡ ̡͌l̡*̡̡ ̴̡ı̴̴̡ ̡̡͡|̲̲̲͡͡͡ ̲▫̲͡ ̲̲̲͡͡π̲̲͡͡ ̲̲͡▫̲̲͡͡ ̲|̡̡̡ ̡ ̴̡ı̴̡̡ ̡͌l̡̡̡̡.___",
+//         spelling: "house"
+//     },
+//     {
+//         char: "٩(̾●̮̮̃̾•̃̾)۶",
+//         spelling: "monster"
+//     },
+//     {
+//         char: "@('_')@",
+//         spelling: "monkey"
+//     }
+// ]
 
 export function getRandomElementFromArray(arr = []) {
     const len = arr.length;
