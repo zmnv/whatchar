@@ -1,11 +1,8 @@
 import classNames from 'classnames';
 import { useCallback, useEffect, useState } from 'react';
 import './App.css';
-import { getRandomElementFromArray, getWhatcharData } from './logic';
+import { getWhatcharData } from './logic';
 import { shuffle } from './logic/shuffle';
-
-const EMOJI_DIC = ['👌', '🤌', '🤟', '👍', '🙌', '👏'];
-const getRandomEmoji = () => getRandomElementFromArray(EMOJI_DIC);
 
 const VariantButton = ({
   char,
@@ -24,7 +21,7 @@ const VariantButton = ({
 
   return (
     <button onClick={handleClick} className={classNames(
-      `w-full outline-none justify-center items-center leading-4 text-center font-medium rounded-full text-white px-4 py-8 bg-white bg-opacity-5 text-2xl overflow-hidden`,
+      `w-full mb-2 outline-none justify-center items-center leading-4 text-center font-medium rounded-full text-white px-4 py-8 bg-white bg-opacity-5 text-2xl overflow-hidden`,
       activeClass,
       className,
     )}>
@@ -88,7 +85,7 @@ function App() {
           {success ? "You are right!" : "It's pronounced like:"}
         </p>
 
-        <div className="w-full grid grid-rows-2 grid-flow-col gap-4">
+        <div className="w-full columns-2 gap-2">
           {variants.map(v => {
             return (
               <VariantButton
