@@ -1,0 +1,440 @@
+[
+    {
+        "char": "あ",
+        "spelling": "a"
+    },
+    {
+        "char": "い",
+        "spelling": "i"
+    },
+    {
+        "char": "う",
+        "spelling": "u"
+    },
+    {
+        "char": "え",
+        "spelling": "e"
+    },
+    {
+        "char": "お",
+        "spelling": "o"
+    },
+    {
+        "char": "か",
+        "spelling": "ka"
+    },
+    {
+        "char": "き",
+        "spelling": "ki"
+    },
+    {
+        "char": "く",
+        "spelling": "ku"
+    },
+    {
+        "char": "け",
+        "spelling": "ke"
+    },
+    {
+        "char": "こ",
+        "spelling": "ko"
+    },
+    {
+        "char": "きゃ",
+        "spelling": "kya"
+    },
+    {
+        "char": "きゅ",
+        "spelling": "kyu"
+    },
+    {
+        "char": "きょ",
+        "spelling": "kyo"
+    },
+    {
+        "char": "さ",
+        "spelling": "sa"
+    },
+    {
+        "char": "し",
+        "spelling": "shi"
+    },
+    {
+        "char": "す",
+        "spelling": "su"
+    },
+    {
+        "char": "せ",
+        "spelling": "se"
+    },
+    {
+        "char": "そ",
+        "spelling": "so"
+    },
+    {
+        "char": "しゃ",
+        "spelling": "shya"
+    },
+    {
+        "char": "しゅ",
+        "spelling": "shu"
+    },
+    {
+        "char": "しょ",
+        "spelling": "sho"
+    },
+    {
+        "char": "た",
+        "spelling": "ta"
+    },
+    {
+        "char": "ち",
+        "spelling": "chi"
+    },
+    {
+        "char": "つ",
+        "spelling": "tsu"
+    },
+    {
+        "char": "て",
+        "spelling": "te"
+    },
+    {
+        "char": "と",
+        "spelling": "to"
+    },
+    {
+        "char": "ちゃ",
+        "spelling": "cha"
+    },
+    {
+        "char": "ちゅ",
+        "spelling": "chu"
+    },
+    {
+        "char": "ちょ",
+        "spelling": "cho"
+    },
+    {
+        "char": "な",
+        "spelling": "na"
+    },
+    {
+        "char": "に",
+        "spelling": "ni"
+    },
+    {
+        "char": "ぬ",
+        "spelling": "nu"
+    },
+    {
+        "char": "ね",
+        "spelling": "ne"
+    },
+    {
+        "char": "の",
+        "spelling": "no"
+    },
+    {
+        "char": "にゃ",
+        "spelling": "nya"
+    },
+    {
+        "char": "にゅ",
+        "spelling": "nyu"
+    },
+    {
+        "char": "にょ",
+        "spelling": "nyo"
+    },
+    {
+        "char": "は",
+        "spelling": "ha"
+    },
+    {
+        "char": "ひ",
+        "spelling": "hi"
+    },
+    {
+        "char": "ふ",
+        "spelling": "fu"
+    },
+    {
+        "char": "へ",
+        "spelling": "he"
+    },
+    {
+        "char": "ほ",
+        "spelling": "ho"
+    },
+    {
+        "char": "ひゃ",
+        "spelling": "hya"
+    },
+    {
+        "char": "ひゅ",
+        "spelling": "hyu"
+    },
+    {
+        "char": "ひょ",
+        "spelling": "hyo"
+    },
+    {
+        "char": "ま",
+        "spelling": "ma"
+    },
+    {
+        "char": "み",
+        "spelling": "mi"
+    },
+    {
+        "char": "む",
+        "spelling": "mu"
+    },
+    {
+        "char": "め",
+        "spelling": "me"
+    },
+    {
+        "char": "も",
+        "spelling": "mo"
+    },
+    {
+        "char": "みゃ",
+        "spelling": "mya"
+    },
+    {
+        "char": "みゅ",
+        "spelling": "myu"
+    },
+    {
+        "char": "みょ",
+        "spelling": "myo"
+    },
+    {
+        "char": "ら",
+        "spelling": "ra"
+    },
+    {
+        "char": "り",
+        "spelling": "ri"
+    },
+    {
+        "char": "る",
+        "spelling": "ru"
+    },
+    {
+        "char": "れ",
+        "spelling": "re"
+    },
+    {
+        "char": "ろ",
+        "spelling": "ro"
+    },
+    {
+        "char": "りゃ",
+        "spelling": "rya"
+    },
+    {
+        "char": "りゅ",
+        "spelling": "ryu"
+    },
+    {
+        "char": "りょ",
+        "spelling": "ryo"
+    },
+    {
+        "char": "や",
+        "spelling": "ya"
+    },
+    {
+        "char": "ゆ",
+        "spelling": "yu"
+    },
+    {
+        "char": "よ",
+        "spelling": "yo"
+    },
+    {
+        "char": "わ",
+        "spelling": "wa"
+    },
+    {
+        "char": "ゐ",
+        "spelling": "wi"
+    },
+    {
+        "char": "ゑ",
+        "spelling": "we"
+    },
+    {
+        "char": "を",
+        "spelling": "o"
+    },
+    {
+        "char": "が",
+        "spelling": "ga"
+    },
+    {
+        "char": "ぎ",
+        "spelling": "gi"
+    },
+    {
+        "char": "ぐ",
+        "spelling": "gu"
+    },
+    {
+        "char": "げ",
+        "spelling": "ge"
+    },
+    {
+        "char": "ご",
+        "spelling": "go"
+    },
+    {
+        "char": "ぎゃ",
+        "spelling": "gya"
+    },
+    {
+        "char": "ぎゅ",
+        "spelling": "gyu"
+    },
+    {
+        "char": "ぎょ",
+        "spelling": "gyo"
+    },
+    {
+        "char": "ざ",
+        "spelling": "za"
+    },
+    {
+        "char": "じ",
+        "spelling": "ji"
+    },
+    {
+        "char": "ず",
+        "spelling": "zu"
+    },
+    {
+        "char": "ぜ",
+        "spelling": "ze"
+    },
+    {
+        "char": "ぞ",
+        "spelling": "zo"
+    },
+    {
+        "char": "じゃ",
+        "spelling": "ja"
+    },
+    {
+        "char": "じゅ",
+        "spelling": "ju"
+    },
+    {
+        "char": "じょ",
+        "spelling": "jo"
+    },
+    {
+        "char": "だ",
+        "spelling": "da"
+    },
+    {
+        "char": "ぢ",
+        "spelling": "ji"
+    },
+    {
+        "char": "づ",
+        "spelling": "zu"
+    },
+    {
+        "char": "で",
+        "spelling": "de"
+    },
+    {
+        "char": "ど",
+        "spelling": "do"
+    },
+    {
+        "char": "ぢゃ",
+        "spelling": "ja"
+    },
+    {
+        "char": "ぢゅ",
+        "spelling": "ju"
+    },
+    {
+        "char": "ぢょ",
+        "spelling": "jo"
+    },
+
+
+    {
+        "char": "ば",
+        "spelling": "ba"
+    },
+    {
+        "char": "び",
+        "spelling": "bi"
+    },
+    {
+        "char": "ぶ",
+        "spelling": "bu"
+    },
+    {
+        "char": "べ",
+        "spelling": "be"
+    },
+    {
+        "char": "ぼ",
+        "spelling": "bo"
+    },
+    {
+        "char": "びゃ",
+        "spelling": "bya"
+    },
+    {
+        "char": "びゅ",
+        "spelling": "byu"
+    },
+    {
+        "char": "びょ",
+        "spelling": "byo"
+    },
+    {
+        "char": "ぱ",
+        "spelling": "pa"
+    },
+    {
+        "char": "ぴ",
+        "spelling": "pi"
+    },
+    {
+        "char": "ぷ",
+        "spelling": "pu"
+    },
+    {
+        "char": "ぺ",
+        "spelling": "pe"
+    },
+    {
+        "char": "ぽ",
+        "spelling": "po"
+    },
+    {
+        "char": "ぴゃ",
+        "spelling": "pya"
+    },
+    {
+        "char": "ぴゅ",
+        "spelling": "pyu"
+    },
+    {
+        "char": "ぴょ",
+        "spelling": "pyo"
+    },
+    {
+        "char": "ん",
+        "spelling": "n"
+    }
+]

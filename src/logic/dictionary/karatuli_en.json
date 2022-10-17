@@ -1,0 +1,134 @@
+[
+    {
+        "char": "ა",
+        "spelling": "a"
+    },
+    {
+        "char": "ბ",
+        "spelling": "b"
+    },
+    {
+        "char": "გ",
+        "spelling": "g"
+    },
+    {
+        "char": "დ",
+        "spelling": "d"
+    },
+    {
+        "char": "ე",
+        "spelling": "e"
+    },
+    {
+        "char": "ვ",
+        "spelling": "v"
+    },
+    {
+        "char": "ზ",
+        "spelling": "z"
+    },
+    {
+        "char": "თ",
+        "spelling": "t'"
+    },
+    {
+        "char": "ი",
+        "spelling": "i"
+    },
+    {
+        "char": "კ",
+        "spelling": "ka"
+    },
+    {
+        "char": "ლ",
+        "spelling": "l"
+    },
+    {
+        "char": "მ",
+        "spelling": "m"
+    },
+    {
+        "char": "ნ",
+        "spelling": "n"
+    },
+    {
+        "char": "ო",
+        "spelling": "o"
+    },
+    {
+        "char": "პ",
+        "spelling": "p"
+    },
+    {
+        "char": "ჟ",
+        "spelling": "zh"
+    },
+    {
+        "char": "რ",
+        "spelling": "r"
+    },
+    {
+        "char": "ს",
+        "spelling": "s"
+    },
+    {
+        "char": "ტ",
+        "spelling": "t"
+    },
+    {
+        "char": "უ",
+        "spelling": "u"
+    },
+    {
+        "char": "ფ",
+        "spelling": "p'"
+    },
+    {
+        "char": "ქ",
+        "spelling": "k'"
+    },
+    {
+        "char": "ღ",
+        "spelling": "gh"
+    },
+    {
+        "char": "ყ",
+        "spelling": "q"
+    },
+    {
+        "char": "შ",
+        "spelling": "sh"
+    },
+    {
+        "char": "ჩ",
+        "spelling": "ch'"
+    },
+    {
+        "char": "ც",
+        "spelling": "ts'"
+    },
+    {
+        "char": "ძ",
+        "spelling": "dz"
+    },
+    {
+        "char": "წ",
+        "spelling": "ts"
+    },
+    {
+        "char": "ჭ",
+        "spelling": "ch"
+    },
+    {
+        "char": "ხ",
+        "spelling": "kh"
+    },
+    {
+        "char": "ჯ",
+        "spelling": "j"
+    },
+    {
+        "char": "ჰ",
+        "spelling": "h"
+    }
+]
